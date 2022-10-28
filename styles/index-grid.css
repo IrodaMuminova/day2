@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    padding-top:120px ;
+}
+.grid{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    width: 600px;
+    height: 300px;
+    border: 0.5px solid #333;
+}
+.item{
+    
+    border: 0.5px solid #333;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.item-sider{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 100px;
+}
+.item-head{
+width: 500px;
+height: 50px;
+}
+.item-main{
+    height: 200px;
+}
